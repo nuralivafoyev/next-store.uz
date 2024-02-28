@@ -22,6 +22,7 @@
     align-items: center;
     text-align: center;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .kategories_cards_card img {
