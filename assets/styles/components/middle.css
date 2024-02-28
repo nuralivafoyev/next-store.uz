@@ -1,0 +1,14 @@
+.swiper-middle {
+    position: relative;
+    width: 1300px;
+    height: 280px;
+}
+
+.swiper-middle img{
+    position: absolute;
+    top: 60px;
+    left: -50px;
+    width: 1304px;
+    height: 266px;
+    mix-blend-mode: multiply;
+}
