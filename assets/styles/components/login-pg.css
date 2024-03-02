@@ -1,0 +1,119 @@
+.login-wrapper {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #1e1e1e7e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    backdrop-filter: blur(10px);
+}
+
+.login-pg {
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: #fbfbfb;
+    width: 466px;
+    height: 425px;
+    border-radius: 10px;
+    gap: 75px;
+}
+
+.check-x {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.check-x input {
+    position: absolute;
+    appearance: none;
+    right: -2px;
+    background: none;
+    z-index: 5;
+    top: -2px;
+    width: 40px;
+    height: 40px;
+    color: #2119f4;
+    cursor: pointer;
+}
+
+ .login-wrapper:has(#outer_bx-pg:checked), header>#outer_bx:checked{
+    display: none;
+}
+
+.check-x i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 36px;
+    right: 15px;
+}
+
+.login-pg-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.login-pg-txt {
+    text-align: center;
+}
+
+.login-pg-txt h1 {
+    font-weight: 591;
+    font-size: 28px;
+    color: #333232;
+}
+
+.login-pg-btns button {
+    width: 334px;
+    height: 40px;
+    padding: 14px 0px 14px 0px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-pg-btns button:active {
+    transform: scale(0.99);
+}
+
+.login-pg-btns .login-btn {
+    background-color: #0D63F3;
+    color: #fff;
+    font-weight: 539;
+    font-size: 16px;
+}
+
+.login-pg-btns .register {
+    border-radius: 8px;
+    background-image: var(--bg-gradient-dark);
+}
+
+.liner_login_btn {
+    position: relative;
+}
+
+.liner_btn {
+    position: absolute;
+    padding: 10px !important;
+    top: 2px;
+    left: 2px;
+    width: 330px !important;
+    height: 36px !important;
+    font-weight: 16px;
+    font-weight: 539;
+    color: rgba(153, 65, 125, 0.934);
+}
+
+
+.outer_bx {
+    position: absolute;
+    z-index: 999999999999999;
+}

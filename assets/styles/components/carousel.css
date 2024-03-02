@@ -69,3 +69,38 @@
   .swiper_bottom {
     margin-top: -250px;
   }
+
+  @media only screen and (max-width: 480px){
+    #intro .carousel{
+        background-color: limegreen;
+        width: 100%;
+        border-radius: 8px;
+        height: 180px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    #intro .carousel img {
+        object-fit: cover;
+        object-position: center;
+        width: 110%;
+        height: 180px;
+        border-radius: 8px;
+        margin-left: -20px;
+    }
+
+    #intro .carousel img:hover {
+        transform: none;
+    }
+    
+    .front_banner_btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: -30px;
+        height: 18px;
+        z-index: 999;
+    }
+    
+  }

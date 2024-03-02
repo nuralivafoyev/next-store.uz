@@ -2,3 +2,11 @@
     height: 500px;
     padding-top: 130px;
 }
+
+@media only screen and (max-width: 480px){
+    #intro{
+        height: 400px;
+        padding-top: 50px;
+    }
+    
+}

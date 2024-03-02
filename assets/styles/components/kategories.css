@@ -71,3 +71,12 @@
     font-size: 18px;
     margin-top: 2px;
 }
+
+@media only screen and (max-width: 480px){
+    .kategoires {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+}

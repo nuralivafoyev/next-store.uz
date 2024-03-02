@@ -11,6 +11,32 @@
   <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
+
+
+  <div class="login-wrapper">
+    <div class="login-pg"> 
+      
+      <div class="check-x">
+        <input id="outer_bx-pg" type="checkbox">
+        <i class="bx bx-x"></i>
+      </div>
+      
+      <div class="login-pg-txt">
+        <h1>Hisobga kirish uchun</h1>
+      </div>
+      <div class="login-pg-btns">
+        <button class="login-btn">Kirish</button>
+        <small>Yoki</small>
+        <div class="liner_login_btn">
+          <button class="register"></button>
+          <button class="liner_btn">Ro'yxatdan o'tish</button>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+
+
   <!-- ============================= HEADER START ========================== -->
   <header>
 
@@ -59,7 +85,7 @@
             <button>
               <a href="#"><i class="bx bx-cart"></i></a>
             </button>
-            <button>
+            <button id="outer_bx">
               <i class="bx bx-user"></i>
             </button>
 
@@ -73,7 +99,6 @@
   <main>
     <div class="container">
       <!-- ============================= INTRO START ========================= -->
-
       <section id="intro">
         <div class="container">
           <div class="carousel">
@@ -90,8 +115,7 @@
           <div class="swiper-button-prev"></div>
         </div>
       </section>
-
-      <!-- ============================= INTRO END ========================= -->
+      <!-- ============================= INTRO END ========================= -->  
 
       <!-- ========================= LATEGORIES START ====================== -->
       <section class="kategoires">
@@ -661,7 +685,7 @@
 
     </div>
   </main>
-
+  
   <!--============================= FOOTER START ====================== -->
   <footer>
     <div class="container">
@@ -710,6 +734,8 @@
     </div>
   </footer>
   <!--============================= FOOTER END ====================== -->
-</body>
 
+  <!-- JASA SCRIPT -->
+  <script src="assets/js/checkbox.js"></script>
+</body>
 </html>

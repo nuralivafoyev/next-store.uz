@@ -122,6 +122,11 @@ header .nav .nav__list .nav__list--item:nth-child(3) button {
   cursor: pointer;
 }
 
+.login-wrapper:has(#user_btn:active .check-x input:checked){
+  /* background-color: red; */
+  display: block;
+}
+
 header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3) {
   background-color: var(--bg-silver);
   border-radius: 50%;
@@ -173,7 +178,8 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
     width: 100%;
   }
   header .nav .nav__list .nav__list--item .search__wrapper {
-    width: 100%;
+    width: 150%;
+    margin-left: -50px;
   }
   .nav .nav__list {
     display: flex;
@@ -186,5 +192,15 @@ header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3):hover {
   }
   header .nav .nav__list .nav__list--item:nth-child(3) button:nth-child(3){
     display: none;
+  }
+}
+
+ 
+/* ================ RESPONSIVE FOR MOBILE PHONES ================= */
+@media only screen and (max-width: 375px){
+  header .nav .nav__list .nav__list--item .search__wrapper {
+    width: 100%;
+    height: 35px;
+    margin-left: 0px;
   }
 }
