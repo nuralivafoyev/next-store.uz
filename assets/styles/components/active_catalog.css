@@ -11,9 +11,9 @@
     overflow: hidden;
 }
 
-/* .active_hide {
+.active_hide {
     display: none;
-} */
+}
 
 .active_catalog-left {
     background: var(--bg-gradient-white);

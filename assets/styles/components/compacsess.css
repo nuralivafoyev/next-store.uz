@@ -2,7 +2,7 @@
     margin-top: 60px;
 }
 
-.comp_croducts_toptxt span{
+.comp_croducts_toptxt span {
     font-weight: 539;
     font-size: 14px;
     color: #6C757D;
@@ -13,6 +13,15 @@
     font-weight: 539;
     font-size: 14px;
     color: #1e1e1e;
+}
+
+.comp_acsessuars {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .comp_acsessuars .acseesuars_card {
@@ -29,7 +38,7 @@
 
 .comp_acsessuars .acseesuars_card img {
     mix-blend-mode: multiply;
-    
+
 }
 
 .acseesuars_card .acseesuars_card_txt {
@@ -38,7 +47,7 @@
     text-align: center;
 }
 
-.acseesuars_card .acseesuars_card_txt p {
+.acseesuars_card .acseesuars_card_txt a {
     text-align: center;
     font-weight: 539;
     font-size: 16px;
@@ -56,4 +65,8 @@
     font-weight: 539;
     font-size: 16px;
     color: #6C757D;
+}
+
+.product_top_cards{
+    margin-left: -10px;
 }
