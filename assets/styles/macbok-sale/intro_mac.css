@@ -1,0 +1,262 @@
+.intro_mac {
+    width: 1230px;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+}
+
+/* .intro_mac .mac_left .mackbok_img img:nth-child(2){
+    display: none;
+    width: 546px;
+    height: 546px;
+    font-size: 450px;
+} */
+
+.mac_left_bottom {
+    display: flex;
+    gap: 41px;
+    margin-top: 41px;
+}
+
+.mac_left_bottom img {
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.mac_left_bottom img:hover {
+    border: 1px solid rgb(28, 70, 205);
+}
+
+.mac_left_bottom img:focus {
+    border: 1px solid rgb(28, 70, 205);
+}
+
+.mac_right {
+    margin-left: 40px;
+}
+
+.mac_right .mac_right-prg h1 {
+    font-weight: 591;
+    font-size: 28px;
+    color: #1e1e1e;
+}
+
+.mac_right_btns .btn_txts{
+    display: flex;
+    gap: 75px;
+
+}
+
+.mac_right_btns .btn_txts h1 {
+    font-weight: 591;
+    font-size: 18px;
+    color: #1e1e1e;
+}
+
+.mac_right_btns .btn_txts h1:nth-child(2){
+    color: #6C757D;
+}
+
+.mac_right_btns .mac-btns button{
+    min-width: 46px;
+    min-height: 46px;
+    border-radius: 4px;
+    /* border: 2px solid #000000; */
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+}
+
+.mac_right_btns .mac-btns button:focus {
+    border: 2px solid #7171717b;
+}
+
+.mac_right_btns .mac-btns{
+    display: flex;
+    gap: 15px;
+}
+
+.grey-btn {
+    background-color: #BEBBC2 !important;
+}
+
+.carrot-btn {
+    background-color: #F9DED7 !important;
+}
+
+.yllow-btn {
+    background-color: #FCE9DB !important;
+}
+
+.silver-btn {
+    background-color: #E8E8EA !important;
+}
+
+
+.mac_informs {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.mac_informs h1 {
+    font-weight: 591;
+    font-size: 48px;
+    color: #1e1e1e;
+}
+
+.mac_informs small {
+    font-weight: 591;
+    font-size: 24px;
+    color: #0D63F3;
+}
+
+.mac_buy_month {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.mac_buy_month ul {
+    width: 322px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.mac_buy_month ul li {
+    font-weight: 591;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 16px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mac_buy_month ul li:focus{
+    border: 2px solid #0D63F3;
+    border-radius: 8px;
+    color: #0D63F3;
+}
+
+.mac_buy_month ul li:hover {
+    border: 2px solid #0D63F3;
+    border-radius: 8px;
+    color: #0D63F3;
+}
+
+.mac_buy_month ul li::after {
+    content: "";
+    color: #0D63F3;
+    transition: all 0.3s ease;
+}
+
+.mac_buy_month ul li:hover::after{
+    content: "oyda";
+    margin-left: 2px;
+    font-weight: 591;
+    font-size: 18px;
+}
+
+.mac_buy_month .savat-btn i {
+    font-size: 25px;
+}
+
+.mac_buy_month .savat-btn{
+    padding: 15px 29px 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1.5px solid #0D63F3;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 450;
+    color: #0D63F3;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.mac_buy_month .savat-btn:hover {
+    background-color: #0D63F3;
+    color: #fff;
+}
+
+.mac_buy_month .savat-btn:active {
+    transform: scale(0.969);
+}
+
+.mac_buying-btns {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.mac_buying-btns .buy-btn {
+    border: 2px solid #fff;
+    background-color: #0D63F3;  
+    padding: 15px 75px;
+    color: #fff;
+    font-weight: 450;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mac_buying-btns .buy-btn:active {
+    transform: scale(0.98);
+}
+
+.mac_buying-btns .buy-btn:focus {
+    background-color: #fff;
+    color: #0D63F3;
+    border: 2px solid #0D63F3;
+}
+
+.mac_buy_express {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 12px;
+}
+
+.mac_buymarcet {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mac_buymarcet p {
+    font-weight: 591;
+    font-size: 18px;
+    color: #6C757D;
+}
+
+.mac_buymarcet strong {
+    font-weight: 591;
+    font-size: 18px;
+    color: #1e1e1e;
+}
+
+.mac_buymarcet small {
+    font-weight: 591;
+    font-size: 18px;
+    color: #2CB708;
+}
+
+.mac_buymarcet a {
+    font-weight: 591;
+    font-style: 18px;
+    color: #0D63F3;
+}

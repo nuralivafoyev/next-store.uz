@@ -1,0 +1,119 @@
+.mac_sale {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cheep_mac-sale {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cheep_mac-sale label {
+    font-weight: 539;
+    font-size: 14px;
+    column-rule: #333232;
+}
+
+.cheep_mac-sale label, input {
+    cursor: pointer;
+}
+
+.cheep_mac-sale input {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    font-size: 48px;
+    background-color: #fff;
+    border: 2px solid #6C757D;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.cheep_mac-sale input:checked {
+    background-color: #0D63F3;
+    border: 2px solid #0D63F3;
+}
+
+.mac_sale_informs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mac_sale_informs-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mac_sale_informs-card-start {
+    width: 918px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.mac_sale_informs-card-start .mac_paragraf {
+    width: 372px;
+    color: #1e1e1e;
+    font-weight: 539;
+    font-size: 14px;
+}
+
+.mac_sale_informs-card-start h4 {
+    font-weight: 653;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.mac_sale_informs-card-start p {
+    font-weight: 539;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.mac_sale_informs-card-start strong {
+    font-weight: 539;
+    font-size: 16px;
+    color: #0D63F3;
+}
+
+.mac_sale_market-btn {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #ECF4FF;
+    color: #0D63F3;
+    font-weight: 539;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 5px;    
+}
+
+.mac_sale_market-btn:hover {
+    color: #ECF4FF;
+    background-color: #0D63F3;
+}
+
+.mac_sale_market-btn:focus {
+    color: #ECF4FF;
+    background-color: #0D63F3;
+}
+
+.mac_bottomer {
+    width: 100%;
+    height: 1px;
+    background-color: #E4E7EE;
+}
